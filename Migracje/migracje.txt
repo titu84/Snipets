@@ -1,0 +1,3 @@
+enable-migrations -ContextProjectName DbDomain -StartUpProjectName StartupProj -ContextTypeName DbDomain.Models.Model -ProjectName DbDomain
+Add-Migration 
+Update-Database
