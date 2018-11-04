@@ -1,0 +1,13 @@
+<Items>
+    <Item Name="Selected Text" Foreground="0x02000000" Background="0x006A240A" BoldFont="No"/>
+    <Item Name="outlining.collapsehintadornment" Foreground="0x00808080" Background="0x00C0C0C0" BoldFont="No"/>
+    <Item Name="String" Foreground="0x00008000" Background="0x01000001" BoldFont="No"/>
+    <Item Name="Operator" Foreground="0x000000BF" Background="0x01000001" BoldFont="No"/>
+    <Item Name="Comment" Foreground="0x00808080" Background="0x01000001" BoldFont="No"/>
+    <Item Name="type parameter name" Foreground="0x00008080" Background="0x01000001" BoldFont="No"/>
+    <Item Name="struct name" Foreground="0x00BE6D0C" Background="0x01000001" BoldFont="No"/>
+    <Item Name="interface name" Foreground="0x00004DEC" Background="0x01000001" BoldFont="No"/>
+    <Item Name="enum name" Foreground="0x005C7BF5" Background="0x01000001" BoldFont="No"/>
+    <Item Name="delegate name" Foreground="0x000D1C73" Background="0x01000001" BoldFont="No"/>
+    <Item Name="class name" Foreground="0x000000E1" Background="0x01000001" BoldFont="No"/>   
+</Items>
