@@ -1,0 +1,16 @@
+var technologies = CDPConfigurator.Enums.EnumsExtensions.ToEnumTypeCollection<CDPConfigurator.Enums.Technology>().Select(a => a.Text).ToList(); 
+@Html.DropDownList("TechnologySelect", new SelectList(technologies, "Value","Key"))
+
+
+    public static class EnumsExtensions
+    {
+        public static IEnumerable<EnumType> ToEnumTypeCollection<T>()
+        {
+            var list = new List<EnumType>();
+            foreach (int item in Enum.GetValues(typeof(T)))
+            {
+                list.Add(new EnumType() { Value = item, Text = Enum.GetName(typeof(T), item) });
+            }
+            return list;
+        }
+    }
